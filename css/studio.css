@@ -1,0 +1,40 @@
+/*  цвет текста в абзацах #757575;*/
+/* цвет заголовков #212121 */
+/* цвет акцента #2196F3 */
+/* цвет футтера #FFFFFF, rgba(255, 255, 255, 0.6) */
+
+.list{
+    list-style: none;
+}
+
+/* Герой */
+.hero-title{
+    color:var(--hero-text-color);
+}
+/* Название секция */
+.section-title{
+    color:var(--title-text-color);
+}
+/* преимущества список */
+.benefit-list .title{
+    color:var(--title-text-color);
+}
+.benefit-list .text{
+    color: var(--primary-text-color);
+}
+/* наша команда */
+.team-list .title{
+    color:var(--title-text-color);
+}
+.team-list .text {
+    color: var(--primary-text-color);
+}
+/* кнопка заказать услугу */
+.button{
+    background-color:var(--primary-button-color) ;
+    color: var(--primary-text-color);
+}
+.button.primary{
+background-color: var(--background-button-color);
+color: var(--primary-button-color);
+}
