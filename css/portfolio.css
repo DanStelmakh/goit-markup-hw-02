@@ -1,0 +1,30 @@
+
+.list{
+    list-style: none;
+}
+/* Список кнопок */
+.section .button{
+    color: var(--title-text-color);
+    background-color: var(--background-button-portfolio);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+}
+.section .button:hover, .section .button:focus{
+    color: var(--primary-button-color);
+    background-color: var(--background-button-color);
+}
+
+/* Галерея */
+.list .title{
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 2;
+
+}
+.list .text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
