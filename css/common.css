@@ -7,7 +7,7 @@
     --background-button-color: #2196F3;
     --background-color: #FFFFFF;
     --background-button-portfolio: #F5F4FA;
-
+    --background-color-hero-footer: #2F303A;
 }
 
 
@@ -65,4 +65,25 @@ color: var(--primary-text-color);
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color)
+}
+/* Footer */
+.footer {
+    background-color: var(--background-color-hero-footer);
+    font-size: 14px;
+    line-height: 1.7;
+}
+.logo-caption {
+    color: var(--hero-text-color);
+}
+
+
+.footer .link{
+    color:rgba(255, 255, 255, 0.6); 
+    text-decoration: none;
+}
+.footer .link:hover, .footer .link:focus{
+    color:var(--hero-text-color)
+}
+.footer .text{
+    color: var(--hero-text-color);
 }
