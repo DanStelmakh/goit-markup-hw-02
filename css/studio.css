@@ -5,7 +5,7 @@
 
 /* Герой */
 .hero-title{
-    color:var(--hero-text-color);
+    color:var(--secondary-text-color);
     background-color: var(--background-color-hero-footer);
     font-weight: 900;
     font-size: 44px;
@@ -15,7 +15,7 @@
 }
 
 
-/* Название секция */
+/* Название секций */
 .section-title{
     color:var(--title-text-color);
     font-size: 36px;
@@ -64,7 +64,7 @@
     cursor: pointer;
 }
 .button.primary{
-background-color: var(--background-button-color);
+background-color: var(--accent-color);
 color: var(--primary-button-color);
 }
 /* footer */

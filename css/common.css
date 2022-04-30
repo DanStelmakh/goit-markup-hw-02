@@ -2,9 +2,8 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --hero-text-color: #FFFFFF;
+    --secondary-text-color: #FFFFFF;
     --primary-button-color: #ffffff;
-    --background-button-color: #2196F3;
     --background-color: #FFFFFF;
     --background-button-portfolio: #F5F4FA;
     --background-color-hero-footer: #2F303A;
@@ -17,7 +16,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Логотип */
+/* Логотип шапка */
 .logo {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
@@ -73,9 +72,11 @@ color: var(--primary-text-color);
     line-height: 1.7;
 }
 .logo-caption {
-    color: var(--hero-text-color);
+    color: var(--secondary-text-color);
 }
-
+.footer .logo:focus{
+    color: var(--secondary-text-color);
+}
 
 .footer .link{
     color:rgba(255, 255, 255, 0.6); 
@@ -86,4 +87,7 @@ color: var(--primary-text-color);
 }
 .footer .text{
     color: var(--hero-text-color);
+}
+.adress .text, .adress .link{
+    font-style: normal;
 }

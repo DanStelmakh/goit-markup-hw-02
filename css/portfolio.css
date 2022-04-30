@@ -13,7 +13,7 @@
 }
 .section .button:hover, .section .button:focus{
     color: var(--primary-button-color);
-    background-color: var(--background-button-color);
+    background-color: var(--accent-color);
 }
 
 /* Галерея */
